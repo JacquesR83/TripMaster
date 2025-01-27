@@ -1,0 +1,53 @@
+package Tourguide.controller;
+
+import Tourguide.service.GpsService;
+import gpsUtil.location.Attraction;
+import gpsUtil.location.VisitedLocation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.UUID;
+
+@RestController
+@RequestMapping("gps")
+public class GpsController {
+
+    @Autowired
+    GpsService gpsService;
+
+    @GetMapping("/attractions")
+    public List<Attraction> getAttractions() {
+        return gpsService.getAttractions();
+    }
+
+    @RequestMapping("/location/{id}")
+    public VisitedLocation getUserLocation(@PathVariable String id){
+        VisitedLocation visitedLocation = gpsService.getUserLocation(UUID.fromString(id));
+        // pas besoin du model Visited Location
+        // on appelle directement le service qui fournit une Visited Location
+        return visitedLocation;
+
+    }
+//
+//    @GetMapping("/attractions/{attractionName}")
+//    public ResponseEntity<Attraction> getAttractions(@PathVariable String attractionName) {
+//        List<Attraction> attractions = gpsService.getAttractions();
+//
+//        Attraction attraction = attractions
+//                .stream()
+//                .filter(a -> attractionName.equals(a.attractionName))
+//                .findFirst()
+//                .orElse(null);
+//
+//        if(attraction == null){
+//            return ResponseEntity.notFound().build();
+//        }
+//        else {
+//            return ResponseEntity.ok(attraction);
+//        }
+//    }
+//
+
+
+}
