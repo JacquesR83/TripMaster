@@ -21,6 +21,11 @@ public class GpsController {
         return gpsService.getAttractions();
     }
 
+    @GetMapping("/attractions/{id}")
+    public Attraction getAttractionById(@PathVariable String id) {
+        return gpsService.getAttractionById(UUID.fromString(id));
+    }
+
     @RequestMapping("/location/{id}")
     public VisitedLocation getUserLocation(@PathVariable String id){
         VisitedLocation visitedLocation = gpsService.getUserLocation(UUID.fromString(id));

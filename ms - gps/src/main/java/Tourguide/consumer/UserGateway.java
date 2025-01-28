@@ -16,11 +16,11 @@ public class UserGateway {
     }
 
 
-    public ResponseEntity<UserDto> getUserInformation() {
-        String url = "http://localhost:8084/user-information";
-        UserDto userDto = restTemplate.getForObject(url, UserDto.class);
-        return new ResponseEntity<>(userDto, HttpStatus.OK);
-    }
+//    public ResponseEntity<UserDto> getUserInformation() {
+//        String url = "http://localhost:8084/user-information";
+//        UserDto userDto = restTemplate.getForObject(url, UserDto.class);
+//        return new ResponseEntity<>(userDto, HttpStatus.OK);
+//    }
 
 
 }

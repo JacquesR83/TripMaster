@@ -2,6 +2,7 @@ package TourGuide.service;
 
 
 import TourGuide.consumer.GpsGateway;
+import TourGuide.controller.CalculateRewardsDTO;
 import TourGuide.model.*;
 import org.springframework.stereotype.Service;
 import rewardCentral.RewardCentral;
@@ -56,6 +57,31 @@ public class RewardService {
 				}
 			}
 		}
+	}
+
+	public User calculateRewards(User user, VisitedLocation visitedLocation) {
+		List<VisitedLocation> userLocations = user.getVisitedLocations();
+		List<Attraction> attractions = (List<Attraction>) gpsGateway.getAttractions();
+
+		// Awards for each attraction
+		Set<String> rewardedAttractions = user.getUserRewards().stream()
+				.map(r -> r.attraction.attractionName)
+				.collect(Collectors.toSet());
+
+		// Iterates on visited locations
+		for (VisitedLocation visitedLocation2 : userLocations) {
+			// Iterates on visited attractions
+			for (Attraction attraction : attractions) {
+				if (!rewardedAttractions.contains(attraction.attractionName)) {
+					if (nearAttraction(visitedLocation2, attraction)) {
+						// Add reward to user and update Set of rewarded attractions
+						user.addUserReward(new UserReward(visitedLocation, attraction, getRewardPoints(attraction, user)));
+						rewardedAttractions.add(attraction.attractionName);
+					}
+				}
+			}
+		}
+		return user;
 	}
 
 

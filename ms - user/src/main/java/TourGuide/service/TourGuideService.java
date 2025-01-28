@@ -73,7 +73,7 @@ public class TourGuideService {
 		VisitedLocation visitedLocation = gpsGateway.getUserLocation(user.getUserId()).getBody();
 		user.addToVisitedLocations(visitedLocation);
 		// Why mixing rewards service in a trackUserLocation as it is not always relevant while calling it ?
-		rewardGateway.calculateRewards(user);
+		rewardGateway.calculateRewards(user, visitedLocation);
 		return visitedLocation;
 	}
 

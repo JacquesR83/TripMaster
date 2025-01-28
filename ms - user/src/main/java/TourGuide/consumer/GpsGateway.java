@@ -26,6 +26,10 @@ public class GpsGateway {
         return restTemplate.getForEntity("http://localhost:8082/gps/attractions", Attraction[].class);
     }
 
+    public ResponseEntity<Attraction> getAttractionById(String id) {
+        return restTemplate.getForEntity("http://localhost:8082/gps/attractions/{uuid}", Attraction.class);
+    }
+
     // Visited location must be declared in the model, as Attraction, as Location
     public ResponseEntity<VisitedLocation> getUserLocation(UUID id) {
         return restTemplate.getForEntity("http://localhost:8082/gps/location/{uuid}", VisitedLocation.class, id.toString());

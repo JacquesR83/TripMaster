@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 @Service
 public class GpsService {
@@ -26,5 +27,11 @@ public class GpsService {
 
         return gpsUtil.getAttractions();
     }
+
+    public Attraction getAttractionById(UUID id){
+        return (Attraction) gpsUtil.getAttractions().stream().filter(attraction -> id.equals(attraction.attractionId)).collect(Collectors.toList());
+    }
+
+
 
 }

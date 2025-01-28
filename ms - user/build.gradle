@@ -19,6 +19,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.javamoney:moneta:1.4.2'
+	implementation 'javax.money:money-api:1.1'
+
+	implementation files('libs/tripPricer.jar')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
