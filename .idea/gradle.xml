@@ -3,29 +3,29 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-gps/ms-gps" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-gps" />
         <option name="gradleJvm" value="23" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/ms-gps/ms-gps" />
+            <option value="$PROJECT_DIR$/ms-gps" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward/ms-reward" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
         <option name="gradleJvm" value="23" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/ms-reward/ms-reward" />
+            <option value="$PROJECT_DIR$/ms-reward" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-user/ms-user" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-user" />
         <option name="gradleJvm" value="23" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/ms-user/ms-user" />
+            <option value="$PROJECT_DIR$/ms-user" />
           </set>
         </option>
       </GradleProjectSettings>

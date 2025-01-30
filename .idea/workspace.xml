@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="45265b2a-2425-4842-bf2c-449d2f16347a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/libs/gpsUtil.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/MsGpsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/config/GpsConfigModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/consumer/UserGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/consumerTest/TestHelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/controller/GpsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/model/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/model/UserReward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/service/GpsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/test/java/jroullet83/ms_gps/MsGpsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/libs/RewardCentral.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/MsRewardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumer/GpsGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumer/UserGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumerTest/TestHelloGateWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumerTest/TestToShowIfRewardGateWayWorksRewardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/controller/CalculateRewardsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/controller/RewardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/Attraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/Provider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/UserReward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/VisitedLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/service/RewardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/test/java/jroullet83/ms_reward/MsRewardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/.idea/libraries/TripPricer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/libs/TripPricer.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/MsUserApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/config/TourGuideModule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/consumer/CalculateRewardsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/consumer/GpsGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/consumer/RewardGateway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/helper/InternalTestHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/Attraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/Location.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/UserPreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/UserReward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/VisitedLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/service/TourGuideService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/tracker/Tracker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/ms-gps">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ms-reward">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/ms-user">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ms-gps" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JacquesR83"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/JacquesR83/TripMaster",
+    "accountId": "95d32486-6258-49dd-97f4-43dd5b827818"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2sM1VFyU2eHlSoY58fzBxR93c7t" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="45265b2a-2425-4842-bf2c-449d2f16347a" name="Changes" comment="" />
+      <created>1738250653585</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738250653585</updated>
+      <workItem from="1738250655014" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
