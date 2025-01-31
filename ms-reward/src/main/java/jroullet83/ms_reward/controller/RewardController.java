@@ -12,15 +12,10 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class RewardController {
 
-    private final GpsGateway gpsGateway;
     private final RewardService rewardService;
-    private final UserGateway userGateway;
 
-    @Autowired
-    public RewardController(RewardService rewardService, GpsGateway gpsGateway, UserGateway userGateway) {
+    public RewardController(RewardService rewardService) {
         this.rewardService = rewardService;
-        this.gpsGateway = gpsGateway;
-        this.userGateway = userGateway;
     }
 
     // Has to be sent to MS-GPS -> as it takes a User and a Visited Location
@@ -37,24 +32,28 @@ public class RewardController {
         return rewardService.calculateRewards(calculateRewardsDTO.getUser(),calculateRewardsDTO.getVisitedLocation());
     }
 
-    // Testing gateway
-    @GetMapping("/attractions")
-    public Attraction[] getAttractions() {
-        return gpsGateway.getAttractions().getBody();
-    }
 
-    //Testing gateway
-    @GetMapping("/users")
-    public User[] getUsers() {
-        return userGateway.getAllUsers().getBody();
-    }
 
-    //Testing  gateway
-    @RequestMapping("/location/{userName}")
-    public VisitedLocation getLocation(@PathVariable String userName) {
-        System.out.println(userName);
-        return null; //TODO
-    }
+
+
+//    // Testing gateway
+//    @GetMapping("/attractions")
+//    public Attraction[] getAttractions() {
+//        return gpsGateway.getAttractions().getBody();
+//    }
+//
+//    //Testing gateway
+//    @GetMapping("/users")
+//    public User[] getUsers() {
+//        return userGateway.getAllUsers().getBody();
+//    }
+//
+//    //Testing  gateway unused, see test
+//    @RequestMapping("/location/{userName}")
+//    public VisitedLocation getLocation(@PathVariable String userName) {
+//        System.out.println(userName);
+//        return null; //TODO
+//    }
 
 
 //

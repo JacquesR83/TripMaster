@@ -4,94 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45265b2a-2425-4842-bf2c-449d2f16347a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/libs/gpsUtil.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/MsGpsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/config/GpsConfigModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/consumer/UserGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/consumerTest/TestHelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/controller/GpsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/model/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/model/UserReward.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/java/jroullet83/ms_gps/service/GpsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/ms-gps/src/test/java/jroullet83/ms_gps/MsGpsApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/libs/RewardCentral.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/MsRewardApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumer/GpsGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumer/UserGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumerTest/TestHelloGateWay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/consumerTest/TestToShowIfRewardGateWayWorksRewardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/controller/CalculateRewardsDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/controller/RewardController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/Attraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/Provider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/UserReward.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/model/VisitedLocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/java/jroullet83/ms_reward/service/RewardService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/ms-reward/src/test/java/jroullet83/ms_reward/MsRewardApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/.idea/libraries/TripPricer.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/libs/TripPricer.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/MsUserApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/config/TourGuideModule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/consumer/CalculateRewardsDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/consumer/GpsGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/consumer/RewardGateway.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/helper/InternalTestHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/Attraction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/Location.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/UserPreferences.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/UserReward.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/model/VisitedLocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/service/TourGuideService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/java/jroullet83/ms_user/tracker/Tracker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java" beforeDir="false" />
+    <list default="true" id="45265b2a-2425-4842-bf2c-449d2f16347a" name="Changes" comment="code cleaning 3">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/TripPricer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/highVolumeGetRewardsIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gps/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gps/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/consumer/UserGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/consumer/UserGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/controller/RewardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/controller/RewardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/service/RewardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/service/RewardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/MsRewardApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/MsRewardApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/helper/InternalTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/helper/InternalTestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,14 +41,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/ms-reward">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="ms-gps" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -152,15 +79,228 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Build ms-gps.executor": "Run",
+    "Gradle.Build ms-reward.executor": "Run",
+    "Gradle.Build ms-user.executor": "Run",
+    "Gradle.MsRewardApplicationTests.executor": "Run",
+    "Gradle.MsRewardApplicationTests.gpsGatewayTest.executor": "Run",
+    "Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest.executor": "Run",
+    "Gradle.MsRewardApplicationTests.userGatewayTest.executor": "Debug",
+    "Gradle.MsUserApplicationTests.highVolumeTrackLocation.executor": "Debug",
+    "Gradle.highVolumeGetRewardsIT.highVolumeGetRewards.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MsGpsApplication.executor": "Run",
+    "Spring Boot.MsRewardApplication.executor": "Run",
+    "Spring Boot.MsUserApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Laplateforme/Documents/Cours/TripMaster-Corrige",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jroullet83.ms_reward" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.highVolumeGetRewardsIT.highVolumeGetRewards">
+    <configuration name="MsRewardApplicationTests.gpsGatewayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.gpsGatewayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MsRewardApplicationTests.userGatewayGetAllUsersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.userGatewayGetAllUsersTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MsRewardApplicationTests.userGatewayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.userGatewayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MsUserApplicationTests.highVolumeTrackLocation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-user" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jroullet83.ms_user.MsUserApplicationTests.highVolumeTrackLocation&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="highVolumeGetRewardsIT.highVolumeGetRewards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jroullet83.ms_reward.highVolumeGetRewardsIT.highVolumeGetRewards&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="MsGpsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ms-gps.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jroullet83.ms_gps.MsGpsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsRewardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ms-reward.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jroullet83.ms_reward.MsRewardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ms-user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jroullet83.ms_user.MsUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="ms-gps.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jroullet83.ms_gps.MsGpsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.MsRewardApplicationTests.gpsGatewayTest" />
+      <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest" />
+      <item itemvalue="Gradle.MsUserApplicationTests.highVolumeTrackLocation" />
+      <item itemvalue="Gradle.highVolumeGetRewardsIT.highVolumeGetRewards" />
+      <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayTest" />
+      <item itemvalue="Spring Boot.MsUserApplication" />
+      <item itemvalue="Spring Boot.MsGpsApplication" />
+      <item itemvalue="Spring Boot.MsRewardApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.highVolumeGetRewardsIT.highVolumeGetRewards" />
+        <item itemvalue="Gradle.MsUserApplicationTests.highVolumeTrackLocation" />
+        <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest" />
+        <item itemvalue="Gradle.MsRewardApplicationTests.gpsGatewayTest" />
+        <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -177,11 +317,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738250653585</updated>
-      <workItem from="1738250655014" duration="35000" />
+      <workItem from="1738250655014" duration="18273000" />
     </task>
+    <task id="LOCAL-00001" summary="code cleaning 3">
+      <option name="closed" value="true" />
+      <created>1738250852068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738250852068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code cleaning 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="code cleaning 3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
