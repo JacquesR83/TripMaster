@@ -70,6 +70,7 @@ public class UserController {
     }
 
     //Todo test : Add visited location to user and return this visited location when getLocation is called, to get lastvisitedLocation
+    //Todo test : Add visited location to user and return this visited location when getLocation is called, to get lastvisitedLocation
 
 //    @GetMapping("/user-information")
 //    public ResponseEntity<UserDto> getUserInformationToDto(User user) {
