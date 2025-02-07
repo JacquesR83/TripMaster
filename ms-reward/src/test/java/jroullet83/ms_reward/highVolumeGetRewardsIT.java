@@ -22,7 +22,6 @@ import java.util.concurrent.TimeUnit;
 @SpringBootTest
 class highVolumeGetRewardsIT {
 
-
     @Autowired
     GpsGateway gpsGateway;
     @Autowired
@@ -36,8 +35,8 @@ class highVolumeGetRewardsIT {
     public void highVolumeGetRewards() throws InterruptedException {
         StopWatch stopWatch = new StopWatch();
         stopWatch.start();
-        Attraction[] attractions = gpsGateway.getAttractions().getBody();
-        RewardService rewardService = new RewardService(gpsGateway, new RewardCentral(), userGateway, Arrays.stream(attractions).toList());
+        Attraction[] attractions2 = gpsGateway.getAttractions().getBody();
+        RewardService rewardService = new RewardService(gpsGateway, new RewardCentral(), userGateway, Arrays.stream(attractions2).toList());
 
         // Users should be incremented up to 100,000, and test finishes within 20 minutes
 
@@ -45,10 +44,10 @@ class highVolumeGetRewardsIT {
         List<User> allUsers = Arrays.stream(userGateway.getAllUsers().getBody()).toList();
 
         System.out.println(allUsers.size());
-        // Multiple streams to potimize performance
+        // Multiple streams to optimize performance
         allUsers.parallelStream().forEach(u -> u.addToVisitedLocations(new VisitedLocation(u.getUserId(), attraction, new Date())));
-        // Multiple streams to potimize performance
-        allUsers.parallelStream().forEach(u -> rewardService.calculateRewards(u, attractions));
+        // Multiple streams to optimize performance
+        allUsers.parallelStream().forEach(u -> rewardService.calculateRewards(u, attractions2));
         for (User user : allUsers) {
             //While calculating rewards, stops 200 ms
             while (user.getUserRewards().size() == 0) {

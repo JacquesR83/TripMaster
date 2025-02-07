@@ -7,6 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.Locale;
 import java.util.UUID;
 
 
@@ -30,8 +31,8 @@ public class GpsGateway {
     }
 
     // Visited location must be declared in the model, as Attraction, as Location
-    public ResponseEntity<VisitedLocation> getUserLocation(UUID id) {
-        return restTemplate.getForEntity("http://localhost:8082/gps/location/{uuid}", VisitedLocation.class, id.toString());
+    public ResponseEntity<VisitedLocation> getUserLocation(UUID uuid) {
+        return restTemplate.getForEntity("http://localhost:8082/gps/location/{uuid}", VisitedLocation.class, uuid);
     }
 
 }

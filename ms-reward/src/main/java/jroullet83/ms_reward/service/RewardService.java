@@ -139,7 +139,7 @@ public class RewardService {
 	}
 
 	private void updateUser (User user, List<Pair<VisitedLocation, Attraction>> collection) {
-		collection
+		collection.parallelStream()
 				.forEach(p->user.addUserReward(new UserReward(p.getLeft(),p.getRight(), getRewardPoints(p.getRight(),user))));
 		userGateway.updateUser(user);
 	}

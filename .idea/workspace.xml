@@ -4,22 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45265b2a-2425-4842-bf2c-449d2f16347a" name="Changes" comment="code cleaning 3">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/TripPricer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/highVolumeGetRewardsIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="45265b2a-2425-4842-bf2c-449d2f16347a" name="Changes" comment="Update - HighVolumeGetRewards - test ok - fin découpe">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gps/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-gps/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gps/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/consumer/UserGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/consumer/UserGateway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/controller/RewardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/controller/RewardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/src/main/java/jroullet83/ms_gps/controller/GpsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gps/src/main/java/jroullet83/ms_gps/controller/GpsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-gps/src/main/java/jroullet83/ms_gps/service/GpsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-gps/src/main/java/jroullet83/ms_gps/service/GpsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/service/RewardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/java/jroullet83/ms_reward/service/RewardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/MsRewardApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/MsRewardApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/highVolumeGetRewardsIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-reward/src/test/java/jroullet83/ms_reward/highVolumeGetRewardsIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/consumer/GpsGateway.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/consumer/GpsGateway.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/helper/InternalTestHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/helper/InternalTestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms-user/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/service/TourGuideService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/main/java/jroullet83/ms_user/service/TourGuideService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +40,9 @@
         <task path="$PROJECT_DIR$/ms-reward">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/ms-user">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -56,22 +55,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JacquesR83"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JacquesR83&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JacquesR83/TripMaster",
-    "accountId": "95d32486-6258-49dd-97f4-43dd5b827818"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JacquesR83/TripMaster&quot;,
+    &quot;accountId&quot;: &quot;95d32486-6258-49dd-97f4-43dd5b827818&quot;
   }
+}</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2sM1VFyU2eHlSoY58fzBxR93c7t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -83,11 +86,19 @@
     "Gradle.Build ms-reward.executor": "Run",
     "Gradle.Build ms-user.executor": "Run",
     "Gradle.MsRewardApplicationTests.executor": "Run",
+    "Gradle.MsRewardApplicationTests.gpsGatewayAttractionsTest.executor": "Run",
     "Gradle.MsRewardApplicationTests.gpsGatewayTest.executor": "Run",
     "Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest.executor": "Run",
+    "Gradle.MsRewardApplicationTests.userGatewayLocationTest.executor": "Run",
     "Gradle.MsRewardApplicationTests.userGatewayTest.executor": "Debug",
-    "Gradle.MsUserApplicationTests.highVolumeTrackLocation.executor": "Debug",
+    "Gradle.MsUserApplicationTests.executor": "Run",
+    "Gradle.MsUserApplicationTests.getUserLocation.executor": "Run",
+    "Gradle.MsUserApplicationTests.highVolumeTrackLocation.executor": "Run",
+    "Gradle.MsUserApplicationTests.highVolumeTrackLocation2.executor": "Run",
+    "Gradle.MsUserApplicationTests.testGetUserLocation.executor": "Run",
+    "Gradle.MsUserApplicationTests.userLocationtest.executor": "Run",
     "Gradle.highVolumeGetRewardsIT.highVolumeGetRewards.executor": "Run",
+    "HTTP Request.generated-requests | #2.executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -101,7 +112,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Laplateforme/Documents/Cours/TripMaster-Corrige",
+    "last_opened_file_path": "C:/Users/Laplateforme/Documents/Projects/firstjobapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,8 +137,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.highVolumeGetRewardsIT.highVolumeGetRewards">
-    <configuration name="MsRewardApplicationTests.gpsGatewayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="HTTP Request.generated-requests | #2">
+    <configuration name="MsRewardApplicationTests.gpsGatewayAttractionsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
@@ -140,55 +151,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.gpsGatewayTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MsRewardApplicationTests.userGatewayGetAllUsersTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.userGatewayGetAllUsersTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="MsRewardApplicationTests.userGatewayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-reward" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.userGatewayTest&quot;" />
+            <option value="&quot;jroullet83.ms_reward.MsRewardApplicationTests.gpsGatewayAttractionsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -223,6 +186,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="MsUserApplicationTests.highVolumeTrackLocation2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ms-user" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;jroullet83.ms_user.MsUserApplicationTests.highVolumeTrackLocation2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="highVolumeGetRewardsIT.highVolumeGetRewards" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -245,6 +232,9 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" executionIdentifier="#2" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="MsGpsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -282,22 +272,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.MsRewardApplicationTests.gpsGatewayTest" />
-      <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest" />
+      <item itemvalue="Gradle.MsRewardApplicationTests.gpsGatewayAttractionsTest" />
+      <item itemvalue="Gradle.MsUserApplicationTests.highVolumeTrackLocation2" />
       <item itemvalue="Gradle.MsUserApplicationTests.highVolumeTrackLocation" />
       <item itemvalue="Gradle.highVolumeGetRewardsIT.highVolumeGetRewards" />
-      <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayTest" />
+      <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="Spring Boot.MsUserApplication" />
       <item itemvalue="Spring Boot.MsGpsApplication" />
       <item itemvalue="Spring Boot.MsRewardApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #2" />
         <item itemvalue="Gradle.highVolumeGetRewardsIT.highVolumeGetRewards" />
+        <item itemvalue="Gradle.MsUserApplicationTests.highVolumeTrackLocation2" />
         <item itemvalue="Gradle.MsUserApplicationTests.highVolumeTrackLocation" />
-        <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest" />
-        <item itemvalue="Gradle.MsRewardApplicationTests.gpsGatewayTest" />
-        <item itemvalue="Gradle.MsRewardApplicationTests.userGatewayTest" />
+        <item itemvalue="Gradle.MsRewardApplicationTests.gpsGatewayAttractionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +307,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738250653585</updated>
-      <workItem from="1738250655014" duration="18273000" />
+      <workItem from="1738250655014" duration="19111000" />
+      <workItem from="1738570056284" duration="19116000" />
+      <workItem from="1738666204979" duration="25889000" />
     </task>
     <task id="LOCAL-00001" summary="code cleaning 3">
       <option name="closed" value="true" />
@@ -327,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738250852068</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update - HighVolumeGetRewards - test ok - fin découpe">
+      <option name="closed" value="true" />
+      <created>1738336471691</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738336471691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,17 +335,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="code cleaning 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="code cleaning 3" />
+    <MESSAGE value="Update - HighVolumeGetRewards - test ok - fin découpe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update - HighVolumeGetRewards - test ok - fin découpe" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ms-user/src/test/java/jroullet83/ms_user/MsUserApplicationTests.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TripMaster___MicroServices$MsUserApplicationTests_highVolumeTrackLocation.ic" NAME="MsUserApplicationTests.highVolumeTrackLocation Coverage Results" MODIFIED="1738585642558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

@@ -6,6 +6,7 @@ import gpsUtil.location.VisitedLocation;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Locale;
 import java.util.UUID;
 import java.util.stream.Collectors;
 
@@ -15,6 +16,7 @@ public class GpsService {
     private final GpsUtil gpsUtil;
 
     public GpsService(GpsUtil gpsUtil) {
+        Locale.setDefault(new Locale("en","US"));
         this.gpsUtil = gpsUtil;
     }
 

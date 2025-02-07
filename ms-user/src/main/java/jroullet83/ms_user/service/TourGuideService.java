@@ -18,6 +18,10 @@ import tripPricer.TripPricer;
 import java.time.LocalDateTime;
 import java.time.ZoneOffset;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -29,7 +33,8 @@ public class TourGuideService {
 	private final TripPricer tripPricer = new TripPricer();
 	public final Tracker tracker;
 	boolean testMode = true;
-	
+	ExecutorService executorService = Executors.newFixedThreadPool(200);
+
 	public TourGuideService(GpsGateway gpsGateway, RewardGateway rewardGateway) {
 		this.gpsGateway = gpsGateway;
 		this.rewardGateway = rewardGateway;
@@ -43,10 +48,6 @@ public class TourGuideService {
 		tracker = new Tracker(this);
 		addShutDownHook();
 	}
-	
-
-
-	// Loops with trackUserLocation to constantly update the user's location
 
 	
 	public User getUser(String userName) {
@@ -57,10 +58,11 @@ public class TourGuideService {
 		return internalUserMap.values().stream().collect(Collectors.toList());
 	}
 	
-	public void addUser(User user) {
+	public User addUser(User user) {
 		if(!internalUserMap.containsKey(user.getUserName())) {
 			internalUserMap.put(user.getUserName(), user);
 		}
+		return user;
 	}
 	
 	public List<Provider> getTripDeals(User user) {
@@ -74,23 +76,45 @@ public class TourGuideService {
 	public VisitedLocation getUserLocation(User user) {
 		VisitedLocation visitedLocation = (user.getVisitedLocations().size()>0) ?
 				user.getLastVisitedLocation() :
-				trackUserLocation(user);
-		return visitedLocation;
-	}
-
-	public VisitedLocation trackUserLocation(User user) {
-		VisitedLocation visitedLocation = gpsGateway.getUserLocation(user.getUserId()).getBody();
-		user.addToVisitedLocations(visitedLocation);
-		// Why mixing rewards service in a trackUserLocation as it is not always relevant while calling it ?
-		rewardGateway.calculateRewards(user, visitedLocation);
+				trackUserLocation(user).join();
 		return visitedLocation;
 	}
 
 
 
+	// Completable Future -> opens a new thread and executes all tasks
+	// Each instruction is run  1 by 1
+	//Completable future manage complex asynchronous tasks or cross-depending calculations series: chains tasks and manage dependencies between them
+	public CompletableFuture<VisitedLocation> trackUserLocation(User user) {
+		CompletableFuture.supplyAsync(() -> {
+			VisitedLocation visitedLocation = gpsGateway.getUserLocation(user.getUserId()).getBody();
+			user.addToVisitedLocations(visitedLocation);
+			rewardGateway.calculateRewards(user, visitedLocation);
+			return visitedLocation;
+		}, executorService); // ExecutorService is a pool of threads -> main app keeps going
+		return null;
+	}
 
 
-	
+
+	// Permits to stop the test if calculation takes too long
+	public void shutdown() throws InterruptedException {
+
+		executorService.shutdown();
+		try {
+			if(!executorService.awaitTermination(15, TimeUnit.MINUTES)){
+
+				executorService.shutdownNow();
+			}
+		}catch (InterruptedException e){
+			e.printStackTrace();
+			executorService.shutdownNow();
+		}
+
+	}
+
+
+
 	private void addShutDownHook() {
 		Runtime.getRuntime().addShutdownHook(new Thread() { 
 		      public void run() {
@@ -113,8 +137,7 @@ public class TourGuideService {
 			String phone = "000";
 			String email = userName + "@tourGuide.com";
 			User user = new User(UUID.randomUUID(), userName, phone, email);
-			generateUserLocationHistory(user);
-			
+//			generateUserLocationHistory(user);
 			internalUserMap.put(userName, user);
 		});
 		logger.debug("Created " + InternalTestHelper.getInternalUserNumber() + " internal test users.");

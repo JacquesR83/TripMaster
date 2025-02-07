@@ -8,12 +8,14 @@ import jroullet83.ms_user.model.User;
 import jroullet83.ms_user.model.VisitedLocation;
 import jroullet83.ms_user.service.TourGuideService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("user")
@@ -38,15 +40,36 @@ public class UserController {
         return visitedLocation.location;
     }
 
+    @GetMapping("/visitedlocations")
+    public List<VisitedLocation> getVisitedLocations(@RequestParam String userName) {
+        User user = tourGuideService.getUser(userName);
+        return user.getVisitedLocations();
+    }
+
+    @PostMapping("/visitedlocations/add")
+    public VisitedLocation createVisitedLocation(@RequestParam String userName, @RequestBody VisitedLocation visitedLocation) {
+        User user = tourGuideService.getUser(userName);
+        user.addToVisitedLocations(visitedLocation);
+        return visitedLocation;
+    }
+
+
 
     //Get All Users
     @GetMapping("/users")
     public List<User> getUsers(){
-        TourGuideService tourGuideService = new TourGuideService(gpsGateway, rewardGateway);
+        //TourGuideService tourGuideService = new TourGuideService(gpsGateway, rewardGateway);
         List<User> users = tourGuideService.getAllUsers();
         return users;
     }
 
+    //Add User
+    @PostMapping("/add")
+    public ResponseEntity<User> addUser(@RequestBody User user) {
+        return new ResponseEntity<>(tourGuideService.addUser(user), HttpStatus.CREATED);
+    }
+
+    //Todo test : Add visited location to user and return this visited location when getLocation is called, to get lastvisitedLocation
 
 //    @GetMapping("/user-information")
 //    public ResponseEntity<UserDto> getUserInformationToDto(User user) {
