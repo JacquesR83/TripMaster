@@ -67,10 +67,10 @@
     &quot;accountId&quot;: &quot;95d32486-6258-49dd-97f4-43dd5b827818&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -80,48 +80,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build ms-gps.executor": "Run",
-    "Gradle.Build ms-reward.executor": "Run",
-    "Gradle.Build ms-user.executor": "Run",
-    "Gradle.MsRewardApplicationTests.executor": "Run",
-    "Gradle.MsRewardApplicationTests.gpsGatewayAttractionsTest.executor": "Run",
-    "Gradle.MsRewardApplicationTests.gpsGatewayTest.executor": "Run",
-    "Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest.executor": "Run",
-    "Gradle.MsRewardApplicationTests.userGatewayLocationTest.executor": "Run",
-    "Gradle.MsRewardApplicationTests.userGatewayTest.executor": "Debug",
-    "Gradle.MsUserApplicationTests.executor": "Run",
-    "Gradle.MsUserApplicationTests.getUserLocation.executor": "Run",
-    "Gradle.MsUserApplicationTests.highVolumeTrackLocation.executor": "Run",
-    "Gradle.MsUserApplicationTests.highVolumeTrackLocation2.executor": "Run",
-    "Gradle.MsUserApplicationTests.testGetUserLocation.executor": "Run",
-    "Gradle.MsUserApplicationTests.userLocationtest.executor": "Run",
-    "Gradle.highVolumeGetRewardsIT.highVolumeGetRewards.executor": "Run",
-    "HTTP Request.generated-requests | #2.executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.MsGpsApplication.executor": "Run",
-    "Spring Boot.MsRewardApplication.executor": "Run",
-    "Spring Boot.MsUserApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Laplateforme/Documents/Projects/firstjobapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build ms-gps.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build ms-reward.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build ms-user.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsRewardApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsRewardApplicationTests.gpsGatewayAttractionsTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsRewardApplicationTests.gpsGatewayTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsRewardApplicationTests.userGatewayGetAllUsersTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsRewardApplicationTests.userGatewayLocationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsRewardApplicationTests.userGatewayTest.executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.MsUserApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsUserApplicationTests.getUserLocation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsUserApplicationTests.highVolumeTrackLocation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsUserApplicationTests.highVolumeTrackLocation2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsUserApplicationTests.testGetUserLocation.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.MsUserApplicationTests.userLocationtest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.highVolumeGetRewardsIT.highVolumeGetRewards.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MsGpsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsRewardApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MsUserApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laplateforme/Documents/Projects/firstjobapp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jroullet83.ms_reward" />
